@@ -26,6 +26,7 @@ public class DBManager {
     	List<DailyLogEntity> entityList = findDailyLogByDay(day);
     	if (entityList == null || entityList.size() <= 0) {
     		for (DailyLogEntity log : logs) {
+    			log.setSubmitDay(day);
     			insertDailyLog(log);
     		}
     	} else {
@@ -97,7 +98,7 @@ public class DBManager {
     	if (e == null)
     		return;
     	
-    	db.execSQL("UPDATE TABLENAME SET Status=? WHERE Id=?;", new Object[] {e.getStatus(), e.getId()});
+    	db.execSQL("UPDATE " + DBHelper.TABLENAME_DAILYLOG + " SET Status=? WHERE Id=?;", new Object[] {e.getStatus(), e.getId()});
     	
     }
 }
