@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arrange</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_cbExersizeMorning">早晨锻炼</string>
+    <string name="text_cbExersizeEvening">晚上锻炼</string>
+    <string name="text_cbMilk">每日牛奶</string>
+    <string name="text_cbTechBook4Percent">技术书4%</string>
+    <string name="text_cbOtherBook4Percent">其他书4%</string>
+    <string name="text_cbExersizeLong">每周大运动量</string>
+    <string name="text_cbWeeklyMeat">每周鸡肉或牛肉</string>
+    <string name="text_btnSave">保存</string>
+    <string name="text_btnShowAll">展示历史</string>
+    <string name="msg_confirm">确定</string>
+    <string name="msg_cancel">取消</string>
+    <string name="title_activity_all_logs">AllLogsActivity</string>
+
+</resources>

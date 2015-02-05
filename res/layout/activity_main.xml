@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kevin.arrange.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cbExersizeMorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_cbExersizeMorning" />
+
+        <CheckBox
+            android:id="@+id/cbExersizeEvening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_cbExersizeEvening" />
+
+        <CheckBox
+            android:id="@+id/cbMilk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_cbMilk" />
+
+        <CheckBox
+            android:id="@+id/cbTechBook4Percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_cbTechBook4Percent" />
+
+        <CheckBox
+            android:id="@+id/cbOtherBook4Percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_cbOtherBook4Percent" />
+
+        <CheckBox
+            android:id="@+id/cbExersizeLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_cbExersizeLong" />
+
+        <CheckBox
+            android:id="@+id/cbWeeklyMeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_cbWeeklyMeat" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_btnSave"
+            android:onClick="text_btnSave_onClick" />
+
+        <Button
+            android:id="@+id/btnShowAll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_btnShowAll"
+            android:onClick="text_btnShowAll_onClick" />
+
+    </LinearLayout>
+
+</RelativeLayout>
